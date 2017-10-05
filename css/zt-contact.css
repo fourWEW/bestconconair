@@ -1,0 +1,156 @@
+.innerwidth{
+    width: 1200px;
+    /*background: cyan;*/
+    margin: 0 auto;
+
+}
+.mininnerwidth{
+    width: 1000px;
+    /*background: deepskyblue;*/
+    margin: 0 auto;
+}
+.contact-navbox{
+    width: 100%;
+    /*background: yellow;*/
+
+}
+.contact-navbox .nav{
+    height:50px;
+    line-height:76px;
+
+}
+.contact-navbox .nav span{
+    width: 38px;
+    height: 20px;
+    color: #878787;
+    font-size: 14px;
+    border-bottom: 2px solid #000;
+    margin-right: 10px;
+    font-weight: normal;
+}
+.contact-navbox .nav a{
+    color: #333333;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.contact-navbox .nav .active{
+    color: #ff3795;
+}
+.contact-hobox{
+    width:100%;
+
+}
+.contact-hobox .contact-ho{
+    height:70px;
+    position: relative;
+}
+.contact-hobox .contact-ho .hos{
+    height:6px;
+    width:12px;
+    background: url("../img/zt-contact/zt-hosm.png" ) no-repeat center center ;
+    position: absolute;
+    left: 260px;
+    top:16px;
+}
+.contact-hobox .contact-ho .hob{
+    height:11px;
+    width:22px;
+    background: url("../img/zt-contact/zt-hobig.png" ) no-repeat center center ;
+    position: absolute;
+    left: 200px;
+    top:30px;
+}
+.contactusbox{
+    width: 100%;
+}
+.contactusbox .contactus-top{
+    height: 65px;
+    margin-bottom: 125px;
+}
+.contactusbox .contactus-top .contop-left{
+    width:230px;
+    height:65px;
+    /*background: deeppink;*/
+    float: left;
+}
+.contop-left .titzh{
+    font-size: 20px;
+    color: #e70f77;
+    margin-bottom: 6px;
+}
+.contop-left .titen{
+    font-size: 18px;
+    color: #e70f77;
+}
+.contop-left .titde {
+    font-size: 12px;
+    color: #62c3bf;
+}
+.contop-left .titde .round{
+    width: 4px;
+    height:4px;
+    border-radius: 50%;
+    border:1px solid #e5006e;
+    background: #e5006e;
+    float: left;
+    box-sizing: border-box;
+    line-height:12px;
+    margin: 5px 3px;
+}
+.contactusbox .contactus-top .contop-right{
+    float: left;
+    position: relative;
+}
+.contop-right .line{
+    width: 769px;
+    border-bottom: 2px solid #e93a72;
+    margin-top: 30px;
+}
+.contop-right .hos{
+    height:6px;
+    width:12px;
+    background: url("../img/zt-contact/zt-hosm.png" ) no-repeat center center ;
+    position: absolute;
+    left: 90px;
+    top:38px;
+}
+.contactus-mid .midtit{
+    text-align: center;
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 40px;
+}
+.contactus-mid .inputrow{
+    height:50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:26px;
+}
+.contactus-mid .inputrow .left,.right{
+    padding-left: 18px;
+    width:496px;
+    height:50px;
+    border:3px solid #ffc9e3;
+    box-sizing: border-box;
+}
+.contactus-mid .textarea{
+    padding-left: 18px;
+    width:100%;
+    height:145px;
+    border:3px solid #ffc9e3;
+    box-sizing: border-box;
+    margin-bottom: 26px;
+}
+.contactus-mid .submit{
+    width:100%;
+    height:50px;
+    border:3px solid #ffc9e3;
+    background: none;
+    cursor: pointer;
+    margin-bottom: 90px;
+}
+.contactus-map{
+    background: url("../img/zt-contact/zt-map.png") no-repeat center center;
+    height: 520px;
+}
