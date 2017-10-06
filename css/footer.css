@@ -1,0 +1,67 @@
+.footerBox{
+	width: 100%;
+	height: 370px;
+	background: #E82281;
+	float:left;
+}
+.footer{
+	width:1200px;
+	height: 260px;
+	margin: 0 auto;
+	margin-top:110px;
+}
+.footerLeft{
+	width: 430px;
+	height: 235px;
+	float:left;
+	border-right: 1px solid #B01A62;
+}
+.footerLeft>a{
+	color:#fff;
+	line-height: 24px;
+}
+.enus{
+	font-size: 16px;
+}
+.icon-xiaoxi{
+	font-size: 16px !important;
+	margin-left: 10px;
+}
+.chus{
+	font-size: 16px;
+	line-height: 30px;
+}
+.footerLeft>i{
+	color:#7E1246;
+		
+}
+.footerLeft>p{
+	display: inline-block;
+	color:#fff;
+	margin-left: 15px;
+	line-height: 0;
+}
+.footerRight{
+	width: 430px;
+	height: 235px;
+	float:left; 
+	margin-left: 50px;
+}
+.footerRight>a{
+	color:#fff;
+	line-height: 24px;
+}
+.icon-site{
+	font-size: 16px !important;
+	margin-left: 10px;
+}
+.qurick{
+	color:#fff;
+	display: inline-block;
+	margin-right: 20px;
+}
+.erweima{
+	width: 219px;
+	height: 210px;
+	float: right;
+}
