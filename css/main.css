@@ -314,9 +314,47 @@ a.en-word{
 	background-position: center center;
 }
 /* 加盟案例 */
+ul.lbtnbox{ 
+	width: 100px; 
+	height: 20px; 
+	display: flex; 
+	justify-content: space-around; 
+	position: absolute; 
+	left: 0px; 
+	right: 0px; 
+	 margin: auto; 
+	 z-index: 20;}
+.lbtnbox>li{ 
+	width: 15px;
+	height: 15px;
+	margin-top: 3px; 
+	border-radius: 50%; 
+	background:#FFDC36;
+	width: 10px; 
+	height: 10px;
+}
+.add .lbtnbox .lactive{
+	width: 22px;
+	height: 11px;
+	background: #FF3795;
+	border-radius: 13px 13px 13px 13px;
+}
 .add{
 	width: 100%;
 	height: 1054px;
+}
+ul.add{
+	width: 100%;
+	height:750px;
+	position: relative;
+	overflow: hidden;
+}
+ul.add li{
+	width: 100%; 
+ height: 100%; 
+ position: absolute; 
+ left: 0; 
+ top: 0;
 }
 .add-title{
 	width:146px;
@@ -408,10 +446,67 @@ a.en-word{
 .air-con .air-con-left{
 	width: 596px;
 	height: 397px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
 	float: left;
+	position: relative;
+}
+.air-con .air-con-left .air-con-left-top{
+	width: 100%;
+	height:100%;
+}
+.air-con .air-con-left .air-con-left-top>li img{
+	width: 100%; 
+	height: 100%; 
+	position: absolute; 
+	left: 0; 
+	top: 0;
+}
+.air-con .air-con-left .air-con-left-bot{
+	width: 70px; 
+	height: 20px; 
+	display: flex; 
+	justify-content: space-around; 
+	position: absolute; 
+	left: 0px; 
+	right: 0px; 
+	bottom: -40px;
+	margin: auto; 
+	z-index: 20;
+}
+.air-con .air-con-left .air-con-left-bot>li{ 
+	width: 8px;
+	height: 8px;
+	margin-top: 3px; 
+	border-radius: 50%; 
+	background: #C7C7C7 ;
+}
+.air-con .air-con-left .air-con-left-bot .llactive{ 
+	width: 7px;
+	height: 7px;
+	margin-top: 3px;
+	border: 1px solid #8C8C8C; 
+	border-radius: 50%; 
+	background: #fff ;
+}
+.left_one1,.right_one1{ 
+	width:26px; 
+	height: 26px; 
+	background: #434343; 
+	text-align: center; 
+	line-height: 26px; 
+	font-size: 20px; 
+	color: white;
+	font-weight: 700;
+	position: absolute; 
+	top: 104%; 
+}
+.left_one1,.right_one1 .aactive{
+	background: #FF3795;
+}
+.right_one1{ 
+	right:31%; 
+}
+.left_one1{ 
+	left:60%;
 }
 .air-con .air-con-right{
 	width: 600px;
